@@ -1,0 +1,46 @@
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+    
+}
+
+.contact-container {
+    max-width: 60%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.Btn-del{
+    background-color: red;
+}
+
+.Btn-del:hover {
+    background-color: orangered;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
