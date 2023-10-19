@@ -106,3 +106,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+.about-page{
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+}
