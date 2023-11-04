@@ -1,0 +1,41 @@
+\\ This CSS file only adds style for the taskbar in all HTML files
+/*
+Student 1: Ahmed Al-Qahtan, ID: 2046143
+Student 2: Mohannad Al-Jeddawi, ID: 2036459
+*/
+
+/* Style for the taskbar */
+a:hover {
+    text-decoration: underline;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+li {
+float: left;
+}
+  
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+
+.active {
+background-color: orange;
+}

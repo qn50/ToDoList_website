@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-.video-container {
+.video {
     width: 80%;
     max-width: 720;
     margin: 40px auto;

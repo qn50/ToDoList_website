@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-.feedback-form-container {
+.feedback {
     width: 80%;
     max-width: 600px;
     margin: 40px auto;
@@ -75,3 +75,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
