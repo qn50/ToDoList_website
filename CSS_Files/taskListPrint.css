@@ -1,6 +1,13 @@
 @media print {
 
- 
+body {
+    visibility: hidden;
+}
+
+table, caption {
+    visibility: visible;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
