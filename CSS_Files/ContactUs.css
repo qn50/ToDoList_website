@@ -4,7 +4,7 @@ Student 2: Mohannad Al-Jeddawi, ID: 2036459
 */
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #009999;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -35,13 +35,13 @@ nav a {
     color: #333;
 }
 
-.contact-container {
+.contact-box {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
 }
 
 .form-group {

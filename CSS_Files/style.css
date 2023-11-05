@@ -12,6 +12,7 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
+    background-color: #009999;
 }
 
 nav ul {
@@ -34,6 +35,16 @@ nav a {
 .hero {
     text-align: center;
     padding: 50px;
+}
+
+.CreateTask {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
 }
 
 .add-event{
