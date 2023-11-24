@@ -1,0 +1,46 @@
+/*
+Student 1: Ahmed Al-Qahtan, ID: 2046143
+Student 2: Mohannad Al-Jeddawi, ID: 2036459
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #009999;
+    color: #fff;
+    text-align: center;
+    padding: 7% 0%;
+    margin: 0;
+}
+
+#mainImageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#displayedImage {
+    width: 80%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    border-color: #777;
+}
+
+#thumbnails {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

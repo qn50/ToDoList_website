@@ -3,19 +3,19 @@ Student 1: Ahmed Al-Qahtan, ID: 2046143
 Student 2: Mohannad Al-Jeddawi, ID: 2036459
 -->
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Page</title>
-    <link rel="stylesheet" href="..\CSS_Files\video-styles.css">
-    <link rel="stylesheet" href="..\CSS_Files\TaskBar.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../CSS_Files/video-styles.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS_Files/TaskBar.css" />
+
 </head>
 <body>
-    
     <!-- Taskbar -->
-    <header class="h">
+    <div class="h">
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="calendar.html">Calendar</a></li>
@@ -26,14 +26,19 @@ Student 2: Mohannad Al-Jeddawi, ID: 2036459
             <li><a href="about.html">About</a></li>
             <li><a href="ContactUs.html">Contact Us</a></li>
         </ul>
-    </header>
+    </div>
 
     <!-- Video Section -->
     <div class="video">
         <h2><b>A VIDEO RELATED TO OUR PROJECT'S TOPIC</b></h2>
         <!-- Embed a YouTube video using the object tag -->
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/o1yMqPyYeAo?si=3aIfs1aM7Brlu5H6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <object type="application/x-shockwave-flash" data="https://www.youtube.com/v/o1yMqPyYeAo?si=3aIfs1aM7Brlu5H6" width="1280" height="720">
+            <param name="movie" value="https://www.youtube.com/v/o1yMqPyYeAo?si=3aIfs1aM7Brlu5H6" />
+            <param name="allowFullScreen" value="true" />
+            <param name="allowscriptaccess" value="always" />
+        </object>
     </div>
 
 </body>
 </html>
+
